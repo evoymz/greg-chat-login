@@ -1,8 +1,8 @@
 #WelcomeDiv {
     margin-top: 160px;
-    margin-left: 150px;
-    width: 400px;
-    height: 500px;
+    margin-left: 300px;
+    width: 355px;
+    height: 488px;
 }
 
 #TopContainerWelcome {
@@ -115,7 +115,7 @@
 
 .wrapperLogoApple {
     position: relative;
-    top: 38px;
+    top: 36px;
     right: 90px;
 }
 

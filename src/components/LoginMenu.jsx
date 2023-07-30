@@ -1,5 +1,8 @@
 import styles from './LoginMenu.module.css';
-import { AppleLogo, FacebookLogo, GoogleLogo } from "@phosphor-icons/react";
+// import { AppleLogo, FacebookLogo, GoogleLogo } from "@phosphor-icons/react";
+import { FaFacebook } from 'react-icons/fa';
+import { FcGoogle } from 'react-icons/fc';
+import { BsApple } from 'react-icons/bs';
 
 export function LoginMenu() {
     return (
@@ -15,23 +18,23 @@ export function LoginMenu() {
             </div>
             <div id={styles.AutoLoginDiv}>
                 <div className={styles.wrapperLogoGoogle}>
-                    <GoogleLogo size={24} />
+                    <FcGoogle size={24} />
                 </div>
 
                 <input className={styles.wrapperAutoLogin} type="button" value="Continue com Google"  />
                 
                 <div className={styles.wrapperLogoFace}>
-                    <FacebookLogo size={24} />
+                    <FaFacebook size={24} />
                 </div>
 
                 <input className={styles.wrapperAutoLogin} type="button" value="Continue com Facebook" />
 
                 <div className={styles.wrapperLogoApple}>
-                    <AppleLogo size={24} />
+                    <BsApple size={24} />
                 </div>
 
-                <input className={styles.wrapperAutoLogin} type="button"
-                value="Continue com Apple"></input>
+                <input className={styles.wrapperAutoLogin} type="button" value="Continue com Apple" />
+                
 
 
                 <p>Não possui uma conta? <a href="">Cadastre-se</a></p>
