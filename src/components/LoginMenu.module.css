@@ -1,0 +1,134 @@
+#WelcomeDiv {
+    margin-top: 160px;
+    margin-left: 150px;
+    width: 400px;
+    height: 500px;
+}
+
+#TopContainerWelcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.5px solid #EDEDED;
+    padding-bottom: 24px;
+
+}
+
+#TopContainerWelcome h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52.51px;
+    padding-bottom: 10px;
+}
+
+#TopContainerWelcome span {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.71px;
+    padding-bottom: 40px;
+}
+
+
+
+.wrapperInputs {
+    width: 345px;
+    height: 43px;
+    border-radius: 12px;
+    border: 1px solid #EDEDED;
+    padding-left: 10px;
+}
+
+.wrapperInputs::placeholder {
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.71px;
+}
+
+#buttonContinue {
+    width: 355px;
+    height: 43px;
+    background-color: #538AF7;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.71px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 12px;
+}
+
+#buttonContinue:hover {
+    cursor: pointer;
+    background-color: #2d70f7;
+}
+
+#Or p {
+    font-weight: 400;
+    font: 14px;
+    line-height: 16.71px;
+    position: relative;
+    top: 35px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#AutoLoginDiv {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapperAutoLogin{
+    width: 355px;
+    height: 43px;
+    padding: 10px 87px 9px 82px;
+    border-radius: 12px; 
+    border: 1px solid #EDEDED;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 16.71px;
+
+}
+
+.wrapperAutoLogin:hover {
+    cursor: pointer;
+    background-color: rgb(253, 250, 247);
+}
+
+.wrapperLogoGoogle {
+    position: relative;
+    top: 38px;
+    right: 100px;
+}
+
+.wrapperLogoFace {
+    position: relative;
+    top: 38px;
+    right: 105px;
+}
+
+.wrapperLogoApple {
+    position: relative;
+    top: 38px;
+    right: 90px;
+}
+
+
+#AutoLoginDiv p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.71px;
+    margin-top: 34px;
+}
+
+#AutoLoginDiv a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
